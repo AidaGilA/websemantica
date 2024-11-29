@@ -1,0 +1,75 @@
+<!--****************************************************************
+*Nombre: Aida
+*Fecha: 29/11/2024
+*Modulo: Lenguaje de marcas y Sistemas de gestion de la información.
+*UD02.
+*Tarea: LMSGI02 Tarea Evaluativa 2. Sitio web.
+*Autoevaluación: https://docs.google.com/document/d/1iZ35jsiuoEHZnh6viegMeWPV8O8pUmZV7nUcF-BtphQ/edit?usp=sharing
+*Descripcion del programa: Una web de reseñas de películas.
+*****************************************************************-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<meta name="Blog Películas" content="HTML5">
+		<title>Blog de películas</title>
+		<!--hoja de estilo css-->
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+      
+    <body>
+        <!-- Encabezado. Se usa posicionamiento absoluto -->
+        <header> 
+            <h1>PELICULAS.</h1>
+            <h4>Encuentra las mejores opiniones.</h4>
+            <!-- Menú de navegación. Usa flexbox -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Generos.html">Generos</a></li>
+                    <li><a href="Plataformas.html">Plataformas</a></li> 
+                    <li><a href="Noticias.html">Noticias</a></li> 
+                    <li><a href="contacto.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="cajas">
+
+            <aside id="bloqueizq">
+                <img src="multimedia/palomi2.jpg" alt="ClipVideo" />
+            </aside>
+
+            <section id="central">
+                <h1>¿Eres cinefilo?</h1>
+
+                <p>El cine aparecío un 28 de diciembre de 1895, cuando los Hermanos Lumière realizaron la primera proyección pública de su cinematógrafo. Pero, al contrario de lo que muchos piensan, no hubo un solo inventor del cine, sino que es un invento colectivo. Los inicios del cine se caracterizan por la confluencia de varios campos científicos y muchos inventores que contribuyeron la gestación de lo que hoy día conocemos como cine.
+                <br>No os voy explicar su funcionamiento, no es el objetivo de esta página.
+                </p>
+                <p> Como todos sabemos el cine era mudo, en blanco y negro y más adelante se incorporó el sonido y ha ido evolucionando hasta nuestros días.
+                <br>Hoy en día con tanta tecnología, IA, etc se consiguen efectos alucinantes.
+                </p>
+                <p>En esta página intento remarcar esas películas que creo que merecen la pena ver, muchas habreis visto, obras maestras y otros puntos a favor de ciertas peliculas o generos.
+                <br>Encontrareis peliculas por genero, las plataformas donde ver algunas de esas películas, novedades o noticias interesantes y podreis escribirme para lo que queráis, comentar películas, gazapos, si quereis la reseña o sinopsis de alguna pelicula o donde puedes encontrarla.
+                    Encontrareis comentarios y menciones a grandes peliculas del genero. 
+                </p>
+                <p>Como yo siempre digo de las películas:</p>
+                <h3>Hay que verlas todas para criticar y formar una opinion propia.</h3>
+            </section> 
+
+            <nav id="navegador">
+                <a href="index.html"><img src="multimedia/claqueta.png" alt="inicio"></a>
+                <a href="Generos.html"><img src="multimedia/mascaradas.jpg" alt="genero"></a>
+                <a href="Plataformas.html"><img src="multimedia/Netflix-Symbol.png" alt="plataformas"></a>
+                <a href="Noticias.html"><img src="multimedia/news2.jpg" alt="noticias"></a>
+                <a href="contacto.html"><img src="multimedia/mail.png" alt="contacto"></a>
+            </nav>
+        </main>    
+        
+        <!--Pie de página -->
+        <footer>
+            <p>Filma blog ©</p>
+            <a href="contacto.html"> <img class="contacto" src="multimedia/mail.png" /></a> 
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!--****************************************************************
+*Nombre: Aida
+*Fecha: 29/11/2024
+*Modulo: Lenguaje de marcas y Sistemas de gestion de la información.
+*UD02.
+*Tarea: LMSGI02 Tarea Evaluativa 2. Sitio web.
+*Autoevaluación: https://docs.google.com/document/d/1iZ35jsiuoEHZnh6viegMeWPV8O8pUmZV7nUcF-BtphQ/edit?usp=sharing
+*Descripcion del programa: Una web de reseñas de películas.
+*****************************************************************-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<meta name="Blog Películas" content="HTML5">
+		<title>Blog de películas</title>
+		<!--hoja de estilo css-->
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+      
+    <body>
+        <!-- Encabezado. Se usa posicionamiento absoluto -->
+        <header> 
+            <h1>Plataformas.</h1>
+            <h4>Encuentra las mejores opiniones.</h4>
+            <!-- Menú de navegación. Usa flexbox -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Generos.html">Generos</a></li>
+                    <li><a href="Plataformas.html">Plataformas</a></li> 
+                    <li><a href="Noticias.html">Noticias</a></li> 
+                    <li><a href="contacto.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="cajas">
+
+            <aside id="bloqueizq">
+                <video class="estiloVideo" controls autoplay >
+                    <source src="multimedia/WhatsApp Video 2024-11-25 at 19.42.55.mp4" type="video/mp4">
+                    No se puede reproducir el video.
+                </video>
+                <img class="platafomaimg" src="multimedia/netfliximg1.jpeg"></img>
+            </aside>
+
+            <section id="central">
+                <h1>Platafomas para elegir.</h1>
+                <p>Hay muchísimas plataformas de pago donde poder ver series, documentales, películas... </p>
+                <p>Hoy en día se consume más este tipo de plataformas que la propia televisión, la gran oferta, su diversidad y hasta ahora sin anuncios, algo que esta cambiando y esta siendo muy criticado ya que es de pago este servicio, pero a decir verdad, los clientes parece que piensan que un minuto de anuncios sigue compensando frente a la publicicdad de la televisión por tener acceso a una amplia variedad. Seguro que conoces las más famosas. </p>
+                <br>
+			    <p><a href="https://www.netflix.com/es/" target="_blank">Netflix,</a> <a href="https://www.primevideo.com" target="_blank">Prime Video</a>, <a href="https://www.max.com/es/es" target="_blank">HBO Max</a>, <a href="https://www.disneyplus.com/nl-nl" target="_blank">Disney Plus</a>, entre otras.</p>
+            </section> 
+            
+			<nav id="navegador">
+				<a href="index.html"><img src="multimedia/claqueta.png" alt="inicio"></a>
+				<a href="Generos.html"><img src="multimedia/mascaradas.jpg" alt="genero"></a>
+				<a href="Plataformas.html"><img src="multimedia/Netflix-Symbol.png" alt="plataformas"></a>
+				<a href="Noticias.html"><img src="multimedia/news2.jpg" alt="Noticias"></a>
+				<a href="contacto.html"><img src="multimedia/mail.png" alt="contacto"></a>
+			</nav>
+        </main> 
+
+        <section id="cuerpo">
+			<article>
+			  	<h2>Netflix</h2>
+				  <img src="multimedia/Netflix-Symbol.png" alt="netflix">
+				<p>Una de las primeras y más famosas.</p>
+				<p>Tiene un muy amplio catalogo y cada vez más se ven propias produciones que al parecer han visto que les pueden llegar a rentar más que sacarlas en el cine y luego esperar para comprarlas y ofrecerlas en su plataforma, de esta forma tener la exclusividad de esa producción.</p>
+				<p>Ha principios de este año se comentó que la cuenta ya no podría ser compartida por varios usuarios pero parece ser que por una cosa o por otra aun se puede disfrutar de ese privilegio.</p>
+				<p>Otra de las noticias que comentaron fué que se pondrían anuncios y todo ello se podrá evitar con una cuota mas costosa a pagar. Podreis ver las tarifas en su página.
+				<p>Puedes contratarlo en <a href="https://www.netflix.com/es/" target="_blank">Netflix</a></p>				
+				</article>
+			<article>
+				<h2>Prime Video.</h2>
+				<img src="multimedia/primelogo.png" alt="AmazonPrime">
+				<p>Pertenece a Amazon una empresa que se dedica a muchas otras cosas. Esta plataforma la podrás disfrutar por una cuota bastante asequible y que trae otros privilegios en los envíos y memoria que te ofrece la empresa antes nombrada. Se han añadido recientemente los anuncios en las visualizaciones. no son muchos pero la verdad que no soy partidaria de que una plataforma de pago tenga ese derecho.</p>
+			    <p>Aquí podrás ver tanto series como películas pero en mi opinión es mucho más pobre en repertorio que netflix. Podrás disfrutar aquí de la serie dirigida por ellos del señor de los anillos que no está en otras plataformas.
+				<p>Puedes contratarlo en <a href="https://www.primevideo.com/" target="_blank">Prime Video.</a></p>
+			</article>
+			<article>
+				<h2>HBO Max.</h2>
+				<img src="multimedia/hbologo.jpg" alt="HBOMax">
+				<p>HBO es otra de las más utilizadas ya ofrece una amplia gama de servicios, puedes disfrutar de películas, series, true crime, documentales, realities, cocina, hogar y además de acontecimientos deportivos en directo "Dazn" y canales populares como Discovery.
+				<p>Puedes contratarlo en <a href="https://www.max.com/es/es" target="_blank">HBO MAX.</a></p>
+			</article>
+			<article>
+				<h2>Disney Plus.</h2>
+				<img src="multimedia/disneyplus.jpg" alt="Disneyplus">
+				<p>La marca Disney tal y como la conocemos se ha unido a este fenómeno de las plataformas para rentabilizar su copyright.</p>
+				<p>No solo ofrece el cine y series para niños, tiene entretenimiento para adultos. Aquí podrás disfrutar de una de las series más premiadas en este último año <b>Shogun.</b> y no se queda atrás en competir con las otras plataformas ya que también tiene sus propias producciones. Además para competir con Netflix el más grande rival, promocionan directamente que podrás disfrutar del servicio en cuatro dispositivos simultáneamente y es una clara declaración de intenciones para competir contra ellos, ya que las medidas sobre este tema de la competencia, ha afectado a la opinión de los usuarios y esto es una oportunidad para que el usuario elija otra plataforma.</p>
+				<p>Como las otras tiene distintas tarifas y puedes contratarlo <a href="https://www.disneyplus.com/nl-nl" target="_blank">Disney Plus.</a></p>
+			</article>
+		
+		</section>
+
+        <!--Pie de página -->
+        <footer>
+            <p>Filma blog ©</p>
+            <a href="contacto.html"> <img class="contacto" src="multimedia/mail.png" /></a> 
+        </footer>
+    </body>
+</html>

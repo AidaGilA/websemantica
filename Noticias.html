@@ -1,0 +1,100 @@
+<!--****************************************************************
+*Nombre: Aida
+*Fecha: 29/11/2024
+*Modulo: Lenguaje de marcas y Sistemas de gestion de la información.
+*UD02.
+*Tarea: LMSGI02 Tarea Evaluativa 2. Sitio web.
+*Autoevaluación: https://docs.google.com/document/d/1iZ35jsiuoEHZnh6viegMeWPV8O8pUmZV7nUcF-BtphQ/edit?usp=sharing
+*Descripcion del programa: Una web de reseñas de películas.
+*****************************************************************-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<meta name="Blog Películas" content="HTML5">
+		<title>Blog de películas</title>
+		<!--hoja de estilo css-->
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+      
+    <body>
+        <!-- Encabezado. Se usa posicionamiento absoluto -->
+        <header>
+            <h1>Noticias.</h1>
+            <h4>Encuentra las mejores opiniones.</h4>
+            <!-- Menú de navegación. Usa flexbox -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Generos.html">Generos</a></li>
+                    <li><a href="Plataformas.html">Plataformas</a></li>
+                    <li><a href="Noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="cajas">
+
+            <aside id="bloqueizq">
+                <img class="platafomaimg" src="multimedia/news2.jpg"></img>
+            </aside>
+
+            <section id="central">
+                <h1>Noticias.</h1>
+                <p>Aquí podrás encontrar las próximas novedades, noticias, gazapos o cualquier cosa digna de mención.</p>
+                <p>También podéis escribirme en el apartado de contacto para comentar cualquier noticia o contarme algún gazapo que hayáis visto o alguna novedad que os gustaria ver posteada. </p>
+            </section>
+           
+            <nav id="navegador">
+                <a href="index.html"><img src="multimedia/claqueta.png" alt="inicio"></a>
+                <a href="Generos.html"><img src="multimedia/mascaradas.jpg" alt="genero"></a>
+                <a href="Plataformas.html"><img src="multimedia/Netflix-Symbol.png" alt="plataformas"></a>
+                <a href="Noticias.html"><img src="multimedia/news2.jpg" alt="noticias"></a>
+                <a href="contacto.html"><img src="multimedia/mail.png" alt="contacto"></a>
+            </nav>
+        </main>
+
+        <section id="cuerpo">
+            <article>
+                <h3>EL JOKER</h3>
+                  <img src="multimedia/joker.avif" alt="El joker">
+                <p>Todos estábamos a la espera de la segunda parte de esa película.</p>
+                <p>Parece ser que lo de las segundas partes nunca fueron buenas se vuelve a hacer realidad en este caso.</p>
+                <p>Era muy esperada ya que la primera parte gustó mucho, pero al parecer no ha gustado mucho ya que ha sido muy criticada, esta segunda es un tipo de musical que pasa en la cabeza del joker y un juicio que dura las 2 horas de película, nada de lo que se esperaba después de la primera.</p>
+                <a class= "sinopsis" href="https://www.filmaffinity.com/es/film630860.html" target="_blank">Sinopsis.</a>           
+                </article>
+            <article>
+                <h3>Gladiator II.</h3>
+                <img src="multimedia/gladiator.jpg" alt="Gladiator">
+                <p>Una de las más esperadas del año, ya se comenta que habrá batalla naval en el coliseo y con los efectos especiales actuales creo que no pasará indiferente. </p>
+                <p>Los críticos avisan, no esperes una película documentada en la historia real de roma, esta producción ha sido creada para entretener.</p>
+                <p>Personalmente diré que me ha gustado como película de entretenimiento, por que creo que a nivel guión y trama... se queda corto. En cinco segundos se resuelve todo y en ese aspecto podría haber sido mucho mejor.</p>
+                <a class= "sinopsis" href="https://www.filmaffinity.com/es/film784584.html" target="_blank">Sinopsis.</a>
+            </article>
+            <article>
+                <h3>Smile II.</h3>
+                <img src="multimedia/smile.jpg" alt="Smile">
+                <p>La secuela de Smile, película de terror.</p>
+                <p>Una estrella de Pop que está infectada de una maldición que te hace ver a personas con una siniestra sonrisa, hasta que te desvives y pasas la maldición. Todo ello acompañado de un gore brutal.</p>
+                <p>A destacar la interpretación de Naomi Scott que según las críticas es excepcional. Además acompaña una crítica al mundo del espectáculo.</p>
+                <a class= "sinopsis" href="https://www.filmaffinity.com/es/film714669.html" target="_blank">Sinopsis.</a>
+            </article>
+            <article>
+                <h3>Vaiana.</h3>
+                <img src="multimedia/Vaiana.jpg" alt="vaiana">
+                <p>Tengo una curiosidad que seguramente te has preguntado antes al igual que yo y otros lectores.</p>
+                <p>¿Porque el nombre en España y otros países es Vaiana y no Moana como en la versión original?</p>
+                <p>Pues os diré que por dos razones: la primera es que ya hay una marca registrada de un perfume y con el nombre de Moana en varios países europeos.</p>
+                <p>La segunda razón es que en Italia hay una película para adultos con este mismo nombre y para que los niño al buscar su película favorita en internet no dieran con algo para mayores de edad han hecho este cambio.</p>
+                <a class= "sinopsis" href="https://www.filmaffinity.com/es/film572473.html" target="_blank">Sinopsis.</a>
+            </article>
+        </section>
+
+        <!--Pie de página -->
+        <footer>
+            <p>Filma blog ©</p>
+            <a href="contacto.html"> <img class="contacto" src="multimedia/mail.png" /></a>
+        </footer>
+    </body>
+</html>

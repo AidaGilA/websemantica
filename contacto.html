@@ -1,0 +1,72 @@
+<!--****************************************************************
+*Nombre: Aida
+*Fecha: 29/11/2024
+*Modulo: Lenguaje de marcas y Sistemas de gestion de la información.
+*UD02.
+*Tarea: LMSGI02 Tarea Evaluativa 2. Sitio web.
+*Autoevaluación: https://docs.google.com/document/d/1iZ35jsiuoEHZnh6viegMeWPV8O8pUmZV7nUcF-BtphQ/edit?usp=sharing
+*Descripcion del programa: Una web de reseñas de películas.
+*****************************************************************-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<meta name="Blog Películas" content="HTML5">
+		<title>Blog de películas</title>
+		<!--hoja de estilo css-->
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+        <!-- Encabezado. Se usa posicionamiento absoluto -->
+        <header> 
+            <h1>Contacto.</h1>
+            <h4>Encuentra las mejores opiniones.</h4>
+            <!-- Menú de navegación. Usa flexbox -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Generos.html">Generos</a></li>
+                    <li><a href="Plataformas.html">Plataformas</a></li> 
+                    <li><a href="Noticias.html">Noticias</a></li> 
+                    <li><a href="contacto.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="cajas">
+
+            <aside id="bloqueizq">
+                <img class="contactoimag" src="multimedia/buzon.jpg" alt="ClipVideo" />
+            </aside>
+
+            <section id="central">
+				<form id="formulario" action="mailto: aigil@birt.eus" method="post">
+					<fieldset>
+						<legend><h3>Escribe y comenta lo que quieras.</h3></legend>
+						<!--Nombre-->
+						<label for="escribe">Nombre:</label><br>
+						<input type="text" id="escribe" name="nombre1" value="Nombre"><br>
+						<label for="escribe">Apellido:</label><br>
+                    	<input type="text" id="escribe" name="apellido1" value="Apellido"><br>
+						<label>Escribeme:</label><br>
+						<input type="text" id="cajatexto" name="texto1" value=""><br>
+						<input type="submit" value="Enviar">
+					</fieldset>
+				</form>
+            </section> 
+
+            <nav id="navegador">
+                <a href="index.html"><img src="multimedia/claqueta.png" alt="inicio"></a>
+                <a href="Generos.html"><img src="multimedia/mascaradas.jpg" alt="genero"></a>
+                <a href="Plataformas.html"><img src="multimedia/Netflix-Symbol.png" alt="plataformas"></a>
+                <a href="Noticias.html"><img src="multimedia/news2.jpg" alt="noticias"></a>
+                <a href="contacto.html"><img src="multimedia/mail.png" alt="contacto"></a>
+            </nav>
+        </main>    
+        
+        <!--Pie de página -->
+        <footer>
+            <p>Filma blog ©</p>
+            <a href="contacto.html"> <img class="contacto" src="multimedia/mail.png" /></a> 
+        </footer>
+    </body>
+</html>
